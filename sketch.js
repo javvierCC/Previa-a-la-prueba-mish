@@ -1,22 +1,22 @@
 const trabajitos = [
     {
         photo: "https://raw.githubusercontent.com/javvierCC/Previa-a-la-prueba-mish/refs/heads/main/img/info%20comprimido.webp",
-        title: "Súper dibujo",
+        title: "Infografía Punk",
         description: "Trabajo de Configuración Visual I, con Prof. Ampuero."
     },
     {
         photo: "https://raw.githubusercontent.com/javvierCC/Previa-a-la-prueba-mish/refs/heads/main/img/bandera%20comprimido.webp",
-        title: "Mejor dibujo",
+        title: "Bandera Personalizable",
         description: "Trabajo de Configuración Visual I, con Prof. Perea."
     },
     {
         photo: "https://raw.githubusercontent.com/javvierCC/Previa-a-la-prueba-mish/refs/heads/main/img/angel%20comprimido.webp",
-        title: "Otro dibujo",
+        title: "Collage Personal",
         description: "Trabajo de Configuración Visual I, con Prof. Pradenas."
     },
     {
         photo: "https://raw.githubusercontent.com/javvierCC/Previa-a-la-prueba-mish/refs/heads/main/img/to%20your%20eternity%20comprimido.webp",
-        title: "Paremos de hacer dibujos",
+        title: "Portada Vinilo",
         description: "Trabajo de Configuración Visual I, con Prof. Otro."
     }            
 ];
