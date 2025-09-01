@@ -282,15 +282,16 @@ function draw() {
 
     // Ojo con el push()
     push();
-    fill("red");
-    translate(0, -valor / 4, -valor / 7);
-    sphere(valor / 4);
+    fill("gray");
+    translate(1, -valor / 4, -valor / 40);
+    rotate(3.1,[0,0,1]);
+    cone(valor / 2.5 , valor/ 4);
     pop();
     // Ojo con el pop()
     // Ojo con el push()
     push();
     fill("blue");
-    sphere(valor / 5);
+    sphere(valor / 4);
     pop();
     // Ojo con el pop()
 
