@@ -1,21 +1,21 @@
 const trabajitos = [
     {
-        photo: "https://picsum.photos/id/237/400/300",
+        photo: "https://raw.githubusercontent.com/javvierCC/Previa-a-la-prueba-mish/refs/heads/main/img/info%20comprimido.webp",
         title: "Súper dibujo",
         description: "Trabajo de Configuración Visual I, con Prof. Ampuero."
     },
     {
-        photo: "https://picsum.photos/id/84/400/300",
+        photo: "https://raw.githubusercontent.com/javvierCC/Previa-a-la-prueba-mish/refs/heads/main/img/bandera%20comprimido.webp",
         title: "Mejor dibujo",
         description: "Trabajo de Configuración Visual I, con Prof. Perea."
     },
     {
-        photo: "https://picsum.photos/id/96/400/300",
+        photo: "https://raw.githubusercontent.com/javvierCC/Previa-a-la-prueba-mish/refs/heads/main/img/angel%20comprimido.webp",
         title: "Otro dibujo",
         description: "Trabajo de Configuración Visual I, con Prof. Pradenas."
     },
     {
-        photo: "https://picsum.photos/id/104/400/300",
+        photo: "https://raw.githubusercontent.com/javvierCC/Previa-a-la-prueba-mish/refs/heads/main/img/to%20your%20eternity%20comprimido.webp",
         title: "Paremos de hacer dibujos",
         description: "Trabajo de Configuración Visual I, con Prof. Otro."
     }            
