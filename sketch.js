@@ -267,34 +267,105 @@ function setup() {
     trabajitos.forEach((x)=>{
         document.querySelector("#portafolio").innerHTML += `<div><img src="${x.photo}"><p>${x.title}</p></div>`;
     });
+    
+    document.querySelector("#autoria").innerHTML = yo.nombre;
 
     //Ahora vuelvo al p5.js
     noStroke();
 }
 
 function draw() {
-    background("white");
+    background(140, 253, 245);
     orbitControl();
-    pointLight(255, 255, 255, valor / 3, valor / 2, 50);
-    specularMaterial(255);
-    shininess(50);
-    metalness(1);
-
-    // Ojo con el push()
-    push();
-    fill("gray");
-    translate(1, -valor / 4, -valor / 40);
-    rotate(3.1,[0,0,1]);
-    cone(valor / 2.5 , valor/ 4);
-    pop();
-    // Ojo con el pop()
-    // Ojo con el push()
-    push();
-    fill("blue");
-    sphere(valor / 4);
-    pop();
-    // Ojo con el pop()
-
+    
+    noStroke();
+    fill(251,191,163);
+    sphere(100);
+    
+    noStroke();
+    fill(1,0,0);
+    translate(-40,0,100);
+    torus(30,4);
+    
+    noStroke();
+    fill(1,0,0);
+    translate(80,0,0);
+    torus(30,4);
+    
+    noStroke();
+    fill(1,0,0);
+    translate(-40,0,0);
+    rotateZ(17.28);
+    cylinder(5,20,15);
+  
+    noStroke();
+    fill(255,255,255);
+    translate(0,-40,0);
+    circle(0,0,55);
+    
+    noStroke();
+    fill(1,0,0);
+    translate(0,0,0.1);
+    circle(-5,0,20);
+    
+    noStroke();
+    fill(255,255,255);
+    translate(0,0,0.1);
+    circle(-15,0,15);
+    
+    noStroke();
+    fill(255,255,255);
+    translate(0,80,0);
+    circle(0,0,55);
+    
+    noStroke();
+    fill(1,0,0);
+    translate(0,0,0.1);
+    circle(-5,0,20);
+    
+    noStroke();
+    fill(255,255,255);
+    translate(0,0,0.1);
+    circle(-15,0,15);
+    
+    noStroke();
+    fill(251,191,163);
+    translate(0,0,-15.4);
+    circle(-30,-40,65);
+ 
+    noStroke();
+    fill(1,0,0);
+    translate(0,0,-0.1);
+    circle(-35,-40,65);
+    
+    noStroke();
+    fill(255,165,143);
+    translate(-37.5,0,0);
+    rotateZ(17.28);
+    ellipsoid(10,5,5);
+    
+    noStroke();
+    fill(255,165,143);
+    translate(80,0,0);
+    ellipsoid(10,5,5);
+    
+    noStroke();
+    fill(230,70,53);
+    translate(-65,120,-85);
+    rotateZ(16);
+    cylinder(90,60,50);
+    
+    noStroke();
+    fill(230,70,53);
+    translate(0,30,0);
+    cylinder(120,10,50);
+    
+    noStroke();
+    fill(255,255,255);
+    translate(0,-10,0);
+    cylinder(90.1,15,50);
+    
+    
 }
 
 function windowResized() {
